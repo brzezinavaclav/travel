@@ -1,0 +1,75 @@
+*{
+    outline: none;
+}
+#header-notice{
+    font-size: 12px;
+    border-radius: 0px;
+    margin: 0px;
+    border-width: 0px 0px 1px 0px;
+    padding: 10px 0px 5px 0px;
+}
+#header-notice .close{
+    right: 15px;
+}
+#primary{
+    margin-bottom: 0px;
+}
+footer{
+    background: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    padding: 30px 0px 20px;
+}
+footer ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+footer hr{
+    border-top: 1px dotted #555;
+}
+footer a{
+    color: #555;
+}
+footer a:focus, footer a:hover{
+    color: #333;
+}
+@media(min-width: 768px) {
+    #primary{
+        min-height: 70px;
+    }
+    #primary .navbar-nav>li>a {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    #primary .navbar-form{
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+    #primary .navbar-brand{
+        padding: 25px 15px;
+        height: 68px;
+    }
+    #secondary{
+        min-height: 40px;
+    }
+    #secondary .container{
+        padding-left: 0px;
+    }
+    #secondary .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #select {
+        height: 700px;
+        background: #fff;
+    }
+    #select_form{
+        margin: 100px auto;
+        width: 700px;
+    }
+}
+#searchbar p{
+    margin: 0px;
+}
+#searchbar .panel-body{
+    padding: 5px;
+}
