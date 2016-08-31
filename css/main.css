@@ -50,6 +50,7 @@ footer a:focus, footer a:hover{
     }
     #secondary{
         min-height: 40px;
+        z-index: 999;
     }
     #secondary .container{
         padding-left: 0px;
