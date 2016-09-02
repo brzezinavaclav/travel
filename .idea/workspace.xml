@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dacb4bb2-4409-4a00-b40d-787865905070" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="travel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,7 +163,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -173,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="301">
+              <caret line="189" column="51" selection-start-line="189" selection-start-column="51" selection-end-line="189" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -243,12 +243,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/nav-secondary.php" />
         <option value="$PROJECT_DIR$/flights.php" />
         <option value="$PROJECT_DIR$/hotels.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -400,12 +400,12 @@
       <workItem from="1472654741893" duration="17783000" />
       <workItem from="1472741067363" duration="5283000" />
       <workItem from="1472802762039" duration="49000" />
-      <workItem from="1472812980267" duration="11167000" />
+      <workItem from="1472812980267" duration="11583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34282000" />
+    <option name="totallyTimeSpent" value="34698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -949,14 +949,6 @@
     <entry file="file://$PROJECT_DIR$/flights.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/test.php" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -977,6 +969,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="56" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
+          <folding>
+            <element signature="e#379#418#0#HTML" expanded="true" />
+            <element signature="e#6822#6841#0#HTML" expanded="true" />
+            <element signature="e#6898#6916#0#HTML" expanded="true" />
+            <element signature="e#7112#7130#0#HTML" expanded="true" />
+            <element signature="e#7326#7344#0#HTML" expanded="true" />
+            <element signature="e#7540#7558#0#HTML" expanded="true" />
+            <element signature="e#7754#7772#0#HTML" expanded="true" />
+            <element signature="e#13029#13049#0#HTML" expanded="true" />
+            <element signature="e#13139#13157#0#HTML" expanded="true" />
+            <element signature="e#13307#13328#0#HTML" expanded="true" />
+            <element signature="e#13471#13489#0#HTML" expanded="true" />
+            <element signature="e#13626#13647#0#HTML" expanded="true" />
+            <element signature="e#13686#13707#0#HTML" expanded="true" />
+            <element signature="e#13812#13830#0#HTML" expanded="true" />
+            <element signature="e#13973#13994#0#HTML" expanded="true" />
+            <element signature="e#14033#14054#0#HTML" expanded="true" />
+            <element signature="e#14159#14177#0#HTML" expanded="true" />
+            <element signature="e#14320#14341#0#HTML" expanded="true" />
+            <element signature="e#14380#14401#0#HTML" expanded="true" />
+            <element signature="e#15086#15112#0#HTML" expanded="true" />
+            <element signature="e#15780#15826#0#HTML" expanded="true" />
+            <element signature="e#16045#16068#0#HTML" expanded="true" />
+            <element signature="e#16884#16910#0#HTML" expanded="true" />
+            <element signature="e#17578#17624#0#HTML" expanded="true" />
+            <element signature="e#17843#17866#0#HTML" expanded="true" />
+            <element signature="e#18682#18708#0#HTML" expanded="true" />
+            <element signature="e#19376#19422#0#HTML" expanded="true" />
+            <element signature="e#19641#19664#0#HTML" expanded="true" />
+            <element signature="e#20480#20506#0#HTML" expanded="true" />
+            <element signature="e#21174#21220#0#HTML" expanded="true" />
+            <element signature="e#21439#21462#0#HTML" expanded="true" />
+            <element signature="e#22278#22304#0#HTML" expanded="true" />
+            <element signature="e#22972#23018#0#HTML" expanded="true" />
+            <element signature="e#23237#23260#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1043,53 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotels.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="56" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
-          <folding>
-            <element signature="e#379#418#0#HTML" expanded="true" />
-            <element signature="e#6822#6841#0#HTML" expanded="true" />
-            <element signature="e#6898#6916#0#HTML" expanded="true" />
-            <element signature="e#7112#7130#0#HTML" expanded="true" />
-            <element signature="e#7326#7344#0#HTML" expanded="true" />
-            <element signature="e#7540#7558#0#HTML" expanded="true" />
-            <element signature="e#7754#7772#0#HTML" expanded="true" />
-            <element signature="e#13029#13049#0#HTML" expanded="true" />
-            <element signature="e#13139#13157#0#HTML" expanded="true" />
-            <element signature="e#13307#13328#0#HTML" expanded="true" />
-            <element signature="e#13471#13489#0#HTML" expanded="true" />
-            <element signature="e#13626#13647#0#HTML" expanded="true" />
-            <element signature="e#13686#13707#0#HTML" expanded="true" />
-            <element signature="e#13812#13830#0#HTML" expanded="true" />
-            <element signature="e#13973#13994#0#HTML" expanded="true" />
-            <element signature="e#14033#14054#0#HTML" expanded="true" />
-            <element signature="e#14159#14177#0#HTML" expanded="true" />
-            <element signature="e#14320#14341#0#HTML" expanded="true" />
-            <element signature="e#14380#14401#0#HTML" expanded="true" />
-            <element signature="e#15086#15112#0#HTML" expanded="true" />
-            <element signature="e#15780#15826#0#HTML" expanded="true" />
-            <element signature="e#16045#16068#0#HTML" expanded="true" />
-            <element signature="e#16884#16910#0#HTML" expanded="true" />
-            <element signature="e#17578#17624#0#HTML" expanded="true" />
-            <element signature="e#17843#17866#0#HTML" expanded="true" />
-            <element signature="e#18682#18708#0#HTML" expanded="true" />
-            <element signature="e#19376#19422#0#HTML" expanded="true" />
-            <element signature="e#19641#19664#0#HTML" expanded="true" />
-            <element signature="e#20480#20506#0#HTML" expanded="true" />
-            <element signature="e#21174#21220#0#HTML" expanded="true" />
-            <element signature="e#21439#21462#0#HTML" expanded="true" />
-            <element signature="e#22278#22304#0#HTML" expanded="true" />
-            <element signature="e#22972#23018#0#HTML" expanded="true" />
-            <element signature="e#23237#23260#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="301">
+          <caret line="189" column="51" selection-start-line="189" selection-start-column="51" selection-end-line="189" selection-end-column="51" />
           <folding />
         </state>
       </provider>

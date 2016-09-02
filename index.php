@@ -129,7 +129,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="submit" class="btn btn-primary btn" value="Search flights">
+                                <a href="flights.php" class="btn btn-primary btn" value="Search flights">
                                 <input type="submit" class="btn btn-primary btn" value="Flight + hotel combo">
                             </div>
                             <div class="col-md-6">
@@ -187,7 +187,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="submit" class="btn btn-primary btn" value="Search hotels">
+                                <a href="hotels.php" class="btn btn-primary btn" value="Search hotels">
                                 <input type="submit" class="btn btn-primary btn" value="Flight + hotel combo">
                             </div>
                             <div class="col-md-6">
