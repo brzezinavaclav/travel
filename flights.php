@@ -159,7 +159,6 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="submit" class="btn btn-primary btn" value="Search flights">
-                                <input type="submit" class="btn btn-primary btn" value="Flight + hotel combo">
                             </div>
                             <div class="col-md-6">
                             </div>
@@ -174,11 +173,13 @@
             <h4>Filter your search <button class="btn btn-default btn-xs pull-right">Reset all</button></h4>
             <div class="form-group">
                 <label>Nearby Airports</label>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        Bangkok-Don Mueang Airport <DMK></DMK>
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            Bangkok-Don Mueang Airport <DMK></DMK>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="form-group">
                 <label>No. of Stops</label>
@@ -221,65 +222,81 @@
             </div>
             <div class="form-group">
                 <label>Airlines</label>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        <img src="http://placehold.it/40x40" style="float: left">
-                        <div style="float: left; padding: 3px 0px 0px 10px">
-                            SpiceJet
-                            <br>$35 onwards
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="http://placehold.it/40x40" style="float: left">
+                            <div style="float: left; padding: 3px 0px 0px 10px">
+                                SpiceJet
+                                <br>$35 onwards
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        <img src="http://placehold.it/40x40" style="float: left">
-                        <div style="float: left; padding: 3px 0px 0px 10px">
-                            SpiceJet
-                            <br>$35 onwards
+                </a>
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="http://placehold.it/40x40" style="float: left">
+                            <div style="float: left; padding: 3px 0px 0px 10px">
+                                SpiceJet
+                                <br>$35 onwards
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        <img src="http://placehold.it/40x40" style="float: left">
-                        <div style="float: left; padding: 3px 0px 0px 10px">
-                            SpiceJet
-                            <br>$35 onwards
+                </a>
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="http://placehold.it/40x40" style="float: left">
+                            <div style="float: left; padding: 3px 0px 0px 10px">
+                                SpiceJet
+                                <br>$35 onwards
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        <img src="http://placehold.it/40x40" style="float: left">
-                        <div style="float: left; padding: 3px 0px 0px 10px">
-                            SpiceJet
-                            <br>$35 onwards
+                </a>
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="http://placehold.it/40x40" style="float: left">
+                            <div style="float: left; padding: 3px 0px 0px 10px">
+                                SpiceJet
+                                <br>$35 onwards
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="form-group">
                 <label>Connecting Airports</label>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        Mumbai (BOM)
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            Mumbai (BOM)
+                        </div>
                     </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        Mumbai (BOM)
+                </a>
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            Mumbai (BOM)
+                        </div>
                     </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        Mumbai (BOM)
+                </a>
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            Mumbai (BOM)
+                        </div>
                     </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body panel-sm">
-                        Mumbai (BOM)
+                </a>
+                <a href="javascript:" class="panel-sm">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            Mumbai (BOM)
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="col-md-9">

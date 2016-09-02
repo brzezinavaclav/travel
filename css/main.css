@@ -104,6 +104,9 @@ footer a:focus, footer a:hover{
 .modify{
     cursor: pointer;
 }
+.modify h3{
+    margin: 0px;
+}
 .btn-primary {
     background-color: #1e52a4;
     border-color: #1b4a93;
@@ -125,7 +128,27 @@ footer a:focus, footer a:hover{
     color: #000;
     background-color: #ffcd03;
 }
-.panel-sm{
+a.panel-sm, a.panel-sm:hover, a.panel-sm:focus{
+    color: #333;
+    text-decoration: none;
     font-size: 12px;
+}
+.panel-sm .panel-body{
     padding: 12px;
+}
+.hotel_count{
+    padding: 0px 10px;
+}
+.rating .fa-star{
+    color: #ffcd03;
+}
+a.hotel{
+    color: #333;
+    text-decoration: none;
+}
+.hotel .panel-body{
+    padding: 0px;
+}
+.hotel h4{
+    margin-bottom: 0px;
 }

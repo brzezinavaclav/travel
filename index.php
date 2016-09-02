@@ -5,10 +5,10 @@
         <div id="select_form">
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#flights" aria-controls="home" role="tab" data-toggle="tab"><span class="fa fa-plane"></span> Flights</a></li>
+                <li role="presentation"><a href="#flights" aria-controls="home" role="tab" data-toggle="tab"><span class="fa fa-plane"></span> Flights</a></li>
                 <li role="presentation"><a href="#hotels" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-bed"></span> Hotels</a></li>
                 <li role="presentation"><a href="#holidays" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-sun-o"></span> Holidays</a></li>
-                <li role="presentation"><a href="#flighthotel" aria-controls="messages" role="tab" data-toggle="tab"><span class="fa fa-briefcase"></span> Flight+Hotel</a></li>
+                <li role="presentation"><a href="#flight_hotel" aria-controls="messages" role="tab" data-toggle="tab"><span class="fa fa-briefcase"></span> Flight+Hotel</a></li>
                 <li role="presentation"><a href="#bus" aria-controls="settings" role="tab" data-toggle="tab"><span class="fa fa-bus"></span> Bus</a></li>
                 <li role="presentation"><a href="#trains" aria-controls="settings" role="tab" data-toggle="tab"><span class="fa fa-train"></span> Trains</a></li>
             </ul>
@@ -62,7 +62,7 @@
                                         <div class="input-group">
                                             <label>Departure</label>
                                         </div>
-                                        <div class='input-group date' id='flights_check_in'>
+                                        <div class='input-group date' id='flights_departure'>
                                             <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -73,7 +73,7 @@
                                         <div class="input-group">
                                             <label>Return</label>
                                         </div>
-                                        <div class='input-group date' id='flights_check_out'>
+                                        <div class='input-group date' id='flights_return'>
                                             <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -238,7 +238,7 @@
                         </div>
                     </form>
                 </div>
-                <div role="tabpanel" class="tab-pane" id="flighthotel">
+                <div role="tabpanel" class="tab-pane" id="flight_hotel">
                     <form>
                         <div class="row">
                             <div class="form-group col-md-12">
@@ -264,18 +264,18 @@
                                 <div class="input-group">
                                     <label>Departure</label>
                                 </div>
-                                <div class='input-group date' id='flighthotel_departure'>
+                                <div class='input-group date' id='flight_hotel_departure'>
                                     <input type='text' class="form-control" />
-                                            <span class="input-group-addon">
-                                                <span class="fa fa-calendar"></span>
-                                            </span>
+                                    <span class="input-group-addon">
+                                        <span class="fa fa-calendar"></span>
+                                    </span>
                                 </div>
                             </div>
                             <div class="form-group col-md-3">
                                 <div class="input-group">
                                     <label>Return</label>
                                 </div>
-                                <div class='input-group date' id='flighthotel_return'>
+                                <div class='input-group date' id='flight_hotel_return'>
                                     <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -292,7 +292,7 @@
                                 <div class="input-group">
                                     <label>Check in</label>
                                 </div>
-                                <div class='input-group date' id='flighthotel_check_in'>
+                                <div class='input-group date' id='flight_hotel_check_in'>
                                     <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -303,7 +303,7 @@
                                 <div class="input-group">
                                     <label>Check out</label>
                                 </div>
-                                <div class='input-group date' id='flighthotel_check_out'>
+                                <div class='input-group date' id='flight_hotel_check_out'>
                                     <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -397,11 +397,11 @@
                                 <div class="input-group">
                                     <label>Departure</label>
                                 </div>
-                                <div class='input-group date' id='bus_departure'>
+                                <div class='input-group date' id='train_departure'>
                                     <input type='text' class="form-control" />
-                                            <span class="input-group-addon">
-                                                <span class="fa fa-calendar"></span>
-                                            </span>
+                                    <span class="input-group-addon">
+                                        <span class="fa fa-calendar"></span>
+                                    </span>
                                 </div>
                             </div>
                             <div class="form-group col-md-6">
