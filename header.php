@@ -31,7 +31,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <form class="navbar-form navbar-right">
+            <div class="navbar-form navbar-right">
                 <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
                 <button class="btn btn-default" data-toggle="modal" data-target="#registrationModal">Register</button>
                 <div class="btn-group">
@@ -44,7 +44,7 @@
                         <li><a href="#"><span class="flag-icon flag-icon-cz"></span> Czech republic</a></li>
                     </ul>
                 </div>
-            </form>
+            </div>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Gift cards</a></li>
@@ -56,7 +56,7 @@
 <nav class="navbar navbar-default navbar-static-top" id="secondary">
     <div class="container">
         <ul class="nav navbar-nav navbar-left">
-            <li><a href="flights.php"><span class="fa fa-plane"></span> Flights</a></li>
+            <li class="active"><a href="flights.php"><span class="fa fa-plane"></span> Flights</a></li>
             <li><a href="flights.php"><span class="fa fa-bed"></span> Hotels</a></a></li>
             <li><a href="flights.php"><span class="fa fa-sun-o"></span> Holidays</a></li>
             <li><a href="flights.php"><span class="fa fa-briefcase"></span> Flight+Hotel</a></li>
