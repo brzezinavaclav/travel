@@ -77,13 +77,13 @@ footer a:focus, footer a:hover{
         color: #fff;
     }
     #select {
-        height: 700px;
+        height: 800px;
         margin-top: -20px;
         background: url(../img/select_background.jpg);
         background-size: cover;
     }
     #select_form{
-        margin: 100px auto;
+        margin: 150px auto;
         width: 700px;
         background: #fff;
         padding: 0px 30px 30px;
