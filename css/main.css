@@ -78,10 +78,16 @@ footer a:focus, footer a:hover{
     }
     #select {
         height: 700px;
+        margin-top: -20px;
+        background: url(../img/select_background.jpg);
+        background-size: cover;
     }
     #select_form{
         margin: 100px auto;
         width: 700px;
+        background: #fff;
+        padding: 0px 30px 30px;
+        border-radius: 6px;
     }
 }
 #searchbar{
@@ -151,4 +157,33 @@ a.hotel{
 }
 .hotel h4{
     margin-bottom: 0px;
+}
+#select_form .nav-tabs{
+    background: #1e52a4;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffcd03;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#select_form.nav-tabs>li {
+    margin-bottom: 0px;
+}
+#select_form .nav-tabs>li.active>a, #select_form .nav-tabs>li.active>a:hover, #select_form .nav-tabs>li.active>a:focus {
+    color: #333;
+    background-color: #ffcd03;
+    border: none;
+    cursor: default;
+    padding: 11px 15px;
+}
+#select_form .nav-tabs>li>a {
+    color: #fff;
+    border: none;
+}
+#select_form .nav>li>a:hover, #select_form .nav>li>a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1b4992;
+    border: none;
 }

@@ -5,7 +5,7 @@
         <div id="select_form">
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation"><a href="#flights" aria-controls="home" role="tab" data-toggle="tab"><span class="fa fa-plane"></span> Flights</a></li>
+                <li role="presentation" class="active"><a href="#flights" aria-controls="home" role="tab" data-toggle="tab"><span class="fa fa-plane"></span> Flights</a></li>
                 <li role="presentation"><a href="#hotels" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-bed"></span> Hotels</a></li>
                 <li role="presentation"><a href="#holidays" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-sun-o"></span> Holidays</a></li>
                 <li role="presentation"><a href="#flight_hotel" aria-controls="messages" role="tab" data-toggle="tab"><span class="fa fa-briefcase"></span> Flight+Hotel</a></li>

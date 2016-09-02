@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php'; include 'nav-secondary.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
