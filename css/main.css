@@ -148,7 +148,7 @@ a.panel-sm, a.panel-sm:hover, a.panel-sm:focus{
 .rating .fa-star{
     color: #ffcd03;
 }
-a.hotel{
+a.hotel, a.holiday{
     color: #333;
     text-decoration: none;
 }
@@ -186,4 +186,14 @@ a.hotel{
     color: #fff;
     background-color: #1b4992;
     border: none;
+}
+#holidays_search{
+    height: 300px;
+    background: url(../img/select_background.jpg);
+    background-size: cover;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0px;
 }

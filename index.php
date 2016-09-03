@@ -8,9 +8,9 @@
                 <li role="presentation" class="active"><a href="#flights" aria-controls="home" role="tab" data-toggle="tab"><span class="fa fa-plane"></span> Flights</a></li>
                 <li role="presentation"><a href="#hotels" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-bed"></span> Hotels</a></li>
                 <li role="presentation"><a href="#holidays" aria-controls="profile" role="tab" data-toggle="tab"><span class="fa fa-sun-o"></span> Holidays</a></li>
-                <li role="presentation"><a href="#flight_hotel" aria-controls="messages" role="tab" data-toggle="tab"><span class="fa fa-briefcase"></span> Flight+Hotel</a></li>
+                <!--<li role="presentation"><a href="#flight_hotel" aria-controls="messages" role="tab" data-toggle="tab"><span class="fa fa-briefcase"></span> Flight+Hotel</a></li>
                 <li role="presentation"><a href="#bus" aria-controls="settings" role="tab" data-toggle="tab"><span class="fa fa-bus"></span> Bus</a></li>
-                <li role="presentation"><a href="#trains" aria-controls="settings" role="tab" data-toggle="tab"><span class="fa fa-train"></span> Trains</a></li>
+                <li role="presentation"><a href="#trains" aria-controls="settings" role="tab" data-toggle="tab"><span class="fa fa-train"></span> Trains</a></li>-->
             </ul>
 
             <!-- Tab panes -->
@@ -130,7 +130,6 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="flights.php" class="btn btn-primary btn">Search flights</a>
-                                <input type="submit" class="btn btn-primary btn" value="Flight + hotel combo">
                             </div>
                             <div class="col-md-6">
                             </div>
@@ -188,7 +187,6 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="hotels.php" class="btn btn-primary btn">Search hotels</a>
-                                <input type="submit" class="btn btn-primary btn" value="Flight + hotel combo">
                             </div>
                             <div class="col-md-6">
                             </div>
@@ -230,14 +228,14 @@
                         </div>
                         <div class="row">
                             <div class="col-md-8">
-                                <input type="submit" class="btn btn-primary btn" value="Search holidays">
-                                <input type="submit" class="btn btn-primary btn" value="Build your own package">
+                                <a href="holidays.php" class="btn btn-primary btn">Search holidays</a>
                             </div>
                             <div class="col-md-4">
                             </div>
                         </div>
                     </form>
                 </div>
+                <!--
                 <div role="tabpanel" class="tab-pane" id="flight_hotel">
                     <form>
                         <div class="row">
@@ -420,6 +418,7 @@
                         </div>
                     </form>
                 </div>
+                -->
             </div>
         </div>
     </div>
