@@ -121,16 +121,7 @@
 <script src="js/datetimepicker.js"></script>
 <script type="text/javascript">
     $(function () {
-        $('#flights_departure').datetimepicker();
-        $('#flights_return').datetimepicker();
-        $('#hotels_check_in').datetimepicker();
-        $('#hotels_check_out').datetimepicker();
-        $('#flight_hotel_departure').datetimepicker();
-        $('#flight_hotel_return').datetimepicker();
-        $('#flight_hotel_check_in').datetimepicker();
-        $('#flight_hotel_check_out').datetimepicker();;
-        $('#bus_departure').datetimepicker();
-        $('#train_departure').datetimepicker();
+        $('.date-picker').datetimepicker();
     });
     $(document).on('click', '#searchbar .dropdown-menu', function (e) {
         e.stopPropagation();

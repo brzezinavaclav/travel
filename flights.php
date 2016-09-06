@@ -91,7 +91,7 @@
                                         <div class="input-group">
                                             <label>Departure</label>
                                         </div>
-                                        <div class='input-group date' id='flights_check_in'>
+                                        <div class='input-group date date-picker' id='flights_check_in'>
                                             <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -102,7 +102,7 @@
                                         <div class="input-group">
                                             <label>Return</label>
                                         </div>
-                                        <div class='input-group date' id='flights_check_out'>
+                                        <div class='input-group date date-picker' id='flights_check_out'>
                                             <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>

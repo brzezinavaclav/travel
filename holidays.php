@@ -13,8 +13,8 @@ include 'nav-secondary.php'; ?>
                             <input type="email" class="form-control" placeholder="To" value="Goa">
                         </div>
                         <div class="form-group">
-                            <div class='input-group date' id='holidays_when'>
-                                <input type='text' class="form-control" placeholder="When"/>
+                            <div class='input-group date date-picker' id='holidays_when'>
+                                <input type=====t' class="form-control" placeholder="When"/>
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
                                     </span>
@@ -25,8 +25,6 @@ include 'nav-secondary.php'; ?>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
     </div>
     <div class="container">
         <div class="row">

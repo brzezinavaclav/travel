@@ -72,7 +72,7 @@
                                     <div class="input-group">
                                         <label>Check in</label>
                                     </div>
-                                    <div class='input-group date' id='hotels_check_in'>
+                                    <div class='input-group date date-picker' id='hotels_check_in'>
                                         <input type='text' class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
@@ -83,7 +83,7 @@
                                     <div class="input-group">
                                         <label>Check out</label>
                                     </div>
-                                    <div class='input-group date' id='hotels_check_out'>
+                                    <div class='input-group date date-picker' id='hotels_check_out'>
                                         <input type='text' class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>

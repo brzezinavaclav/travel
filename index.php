@@ -62,7 +62,7 @@
                                         <div class="input-group">
                                             <label>Departure</label>
                                         </div>
-                                        <div class='input-group date' id='flights_departure'>
+                                        <div class='input-group date date-picker' id='flights_departure'>
                                             <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -73,7 +73,7 @@
                                         <div class="input-group">
                                             <label>Return</label>
                                         </div>
-                                        <div class='input-group date' id='flights_return'>
+                                        <div class='input-group date date-picker' id='flights_return'>
                                             <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -165,7 +165,7 @@
                                 <div class="input-group">
                                     <label>Check in</label>
                                 </div>
-                                <div class='input-group date' id='hotels_check_in'>
+                                <div class='input-group date date-picker' id='hotels_check_in'>
                                     <input type='text' class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
@@ -176,7 +176,7 @@
                                 <div class="input-group">
                                     <label>Check out</label>
                                 </div>
-                                <div class='input-group date' id='hotels_check_out'>
+                                <div class='input-group date date-picker' id='hotels_check_out'>
                                     <input type='text' class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
@@ -262,7 +262,7 @@
                                 <div class="input-group">
                                     <label>Departure</label>
                                 </div>
-                                <div class='input-group date' id='flight_hotel_departure'>
+                                <div class='input-group date date-picker' id='flight_hotel_departure'>
                                     <input type='text' class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
@@ -273,7 +273,7 @@
                                 <div class="input-group">
                                     <label>Return</label>
                                 </div>
-                                <div class='input-group date' id='flight_hotel_return'>
+                                <div class='input-group date date-picker' id='flight_hotel_return'>
                                     <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -290,7 +290,7 @@
                                 <div class="input-group">
                                     <label>Check in</label>
                                 </div>
-                                <div class='input-group date' id='flight_hotel_check_in'>
+                                <div class='input-group date date-picker' id='flight_hotel_check_in'>
                                     <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -301,7 +301,7 @@
                                 <div class="input-group">
                                     <label>Check out</label>
                                 </div>
-                                <div class='input-group date' id='flight_hotel_check_out'>
+                                <div class='input-group date date-picker' id='flight_hotel_check_out'>
                                     <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -354,7 +354,7 @@
                                 <div class="input-group">
                                     <label>Departure</label>
                                 </div>
-                                <div class='input-group date' id='bus_departure'>
+                                <div class='input-group date date-picker' id='bus_departure'>
                                     <input type='text' class="form-control" />
                                             <span class="input-group-addon">
                                                 <span class="fa fa-calendar"></span>
@@ -395,7 +395,7 @@
                                 <div class="input-group">
                                     <label>Departure</label>
                                 </div>
-                                <div class='input-group date' id='train_departure'>
+                                <div class='input-group date date-picker' id='train_departure'>
                                     <input type='text' class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
